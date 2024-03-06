@@ -7,13 +7,15 @@ const Product = () => {
     useEffect(()=>{
         axios.get(`https://fakestoreapi.com/products`)
         .then(res=>{
+           console.log(res)
             setProducts(res.data);
         })
         .catch(error=>console.log(error))
     },[])
+    console.log(products)
   return (
     <>
-    <div classNameName="container-fluid">
+    <div className="container-fluid">
         <div className="row row-cols-1 row-cols-md-4 g-4">
            {products.map(item=>(
             <Card data={item}/>

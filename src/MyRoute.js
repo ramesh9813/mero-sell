@@ -9,14 +9,11 @@ const MyRoute = () => {
     <>
     <Router>
         <Routes>
-          {/* index mean for home page */}
             <Route path='/' element={<Layout/>}>
               <Route index element={<Homepage/>}/>
               <Route path='products' element={<Product/>}/>
               <Route path='productdetial' element={<ProductDetial/>}/>
-
             </Route>
-            
         </Routes>
     </Router>
     </>

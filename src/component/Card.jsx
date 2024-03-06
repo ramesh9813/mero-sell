@@ -1,8 +1,14 @@
 import React from 'react'
 
 const Card = (props) => {
+  console.log(props.data)
+  if (!props.data) {
+    return null; // or handle the absence of data as per your requirement
+}
+
   return (
     <>
+     
         <div className="col">
             <div className="card">
             <img src={props.data.image} className="card-img-top" alt={props.data.title}/>
