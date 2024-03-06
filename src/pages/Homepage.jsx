@@ -5,6 +5,7 @@ import Card from '../component/Card'
 const Homepage = () => {
   return (
     <>
+    <br/>
     <Carousel/>
     <Card/>
 
