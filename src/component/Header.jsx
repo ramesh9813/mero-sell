@@ -7,14 +7,14 @@ const Header = () => {
     <div className="container">
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <Link to="/" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-        <i className='bi bi-bootstrap'></i>
+        <i className='bi bi-bootstrap bg-warning'></i>
         </Link>
     
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><Link to="/" className="nav-link px-2 text-white">Home</Link></li>
           <li><Link to="/products" className="nav-link px-2 text-white">Products</Link></li>
           <li><Link to="/cart" className="nav-link px-2 text-white">
-            Cart<i class="bi bi-cart"></i>
+            Cart 
             </Link></li>
           <li><Link to="#" className="nav-link px-2 text-white">FAQs</Link></li>
           <li><Link to="#" className="nav-link px-2 text-white">About</Link></li>
@@ -25,9 +25,14 @@ const Header = () => {
         </form>
 
         <div className="text-end">
-          <button type="button" className="btn btn-outline-light me-2">Login</button>
+          <button type="button" className="btn btn-outline-warning me-2">Login</button>
           <button type="button" className="btn btn-warning">Sign-up</button>
         </div>
+        <div><Link to="/cart" className="nav-link px-2 text-white">
+             <br/>
+             <i className="bi bi-cart fs-2 cart-icon"></i>
+          
+            </Link></div>
       </div>
     </div>
   </header>

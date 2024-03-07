@@ -49,11 +49,11 @@ const ProductDetial = () => {
         </div>
         <div className="col-md-8">
           <h1>{product.title}</h1>
-          <h2 className='text-primary'>${product.price}</h2>
+          <h2 className='text-warning'>${product.price}</h2>
           <p>{product.description}</p>
           <p>{product.category}</p>
           <div className="my-3">
-            <button className='btn btn-primary' onClick={addToCart}>ADD TO CART</button>
+            <button className='btn btn-warning' onClick={addToCart}>ADD TO CART</button>
           </div>
         </div>
       </div>

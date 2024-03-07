@@ -14,3 +14,12 @@
   height: 200px;
   object-fit: contain;
 }
+
+
+.cart-icon{
+  margin-left: 10px;
+  color:#FFC107;
+  font-size: 2rem !important;
+  position: relative;
+  bottom: 12px;
+}
