@@ -15,11 +15,14 @@ const Product = () => {
     console.log(products)
   return (
     <>
-    <div className="container-fluid">
+    <div className="container-fluid d-flex">
         <div className="row row-cols-1 row-cols-md-4 g-4">
            {products.map((item,i)=>(
             <Card data={item} key={i}/>
            ))}
+        </div>
+        <div className="filter my-2 mb-2 fs-4 text-end">
+          <i class="bi bi-filter"></i>
         </div>
         </div>
     </>

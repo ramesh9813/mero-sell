@@ -27,7 +27,8 @@ const ProductDetial = () => {
       description:product.description,
       image:product.image,
       quantity:1,
-      loginStatus:false
+      loginStatus:false,
+      totalCost:0
 
     }
     const existingItem=cartItem.find(item=> item.id===product.id)

@@ -3,7 +3,7 @@ import React from 'react'
 const Signup = () => {
   return (
     <>
-    <div className="container">
+    <div className="container signup">
         <form>
         {/* <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"/> */}
         <h1 class="h3 mb-3 fw-normal">Sign Up</h1>

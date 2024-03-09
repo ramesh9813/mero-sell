@@ -100,3 +100,29 @@
   display: block !important;
 }
 
+
+/* login page styling */
+.login{
+  width: 30%;
+}
+
+/* signup page styling */
+.signup{
+  width :30%
+}
+
+/* user related styling */
+.user-icon{
+  border: 2px solid rgb(255,193,7);
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.user-icon .userIcon{
+  position: relative;
+  bottom: 18px;
+  left:2px;
+  font: 1.5em sans-serif;
+}

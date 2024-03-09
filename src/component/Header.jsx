@@ -21,7 +21,7 @@ const Header = () => {
         </ul>
 
         <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" className="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search"/>
+          <input type="search" className="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search" name='search-item'/>
         </form>
 
         <div className="text-end">
@@ -40,6 +40,10 @@ const Header = () => {
         <div><Link to="/cart" className="nav-link px-2 text-white">
              <br/>
              <i className="bi bi-cart fs-2 cart-icon"></i>
+            </Link></div>
+        <div className='user-icon'><Link to="/user" className="nav-link px-2 text-white">
+             <br/>
+             <i className="userIcon">U</i>
             </Link></div>
       </div>
     </div>
