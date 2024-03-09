@@ -5,6 +5,9 @@ import Homepage from './pages/Homepage'
 import Product from './pages/Product'
 import ProductDetial from './pages/ProductDetial'
 import Cart from './pages/Cart'
+import Checkout from './component/Checkout'
+import Login from './component/Login'
+import Signup from './component/Signup'
 const MyRoute = () => {
   return (
     <>
@@ -15,6 +18,9 @@ const MyRoute = () => {
               <Route path='products' element={<Product/>}/>
               <Route path='/productdetails/:productId' element={<ProductDetial/>}/>
               <Route path='cart' element={<Cart/>}/>
+              <Route path='checkout' element={<Checkout/>}/>
+              <Route path='login' element={<Login/>}/>
+              <Route path='signup' element={<Signup/>}/>
             </Route>
         </Routes>
     </Router>
