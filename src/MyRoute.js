@@ -7,7 +7,10 @@ import ProductDetial from './pages/ProductDetial'
 import Cart from './pages/Cart'
 import Checkout from './component/Checkout'
 import Login from './component/Login'
-import Signup from './component/Signup'
+// import Signup from './component/Signup'
+import Register from './pages/Register'
+import Show from './context/Show'
+import CartItems from './redux/CartItems'
 const MyRoute = () => {
   return (
     <>
@@ -20,7 +23,9 @@ const MyRoute = () => {
               <Route path='cart' element={<Cart/>}/>
               <Route path='checkout' element={<Checkout/>}/>
               <Route path='login' element={<Login/>}/>
-              <Route path='signup' element={<Signup/>}/>
+              <Route path='register' element={<Register/>}/>
+              <Route path='context' element={<Show/>}/>
+              <Route path='redux' element={<CartItems/>}/>
             </Route>
         </Routes>
     </Router>

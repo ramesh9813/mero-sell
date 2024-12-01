@@ -32,7 +32,7 @@ const Header = () => {
 
             </button>
           <button type="button" className="btn btn-warning">
-          <Link to="/signup" style={{ textDecoration: "none",color:"white" }}>
+          <Link to="/register" style={{ textDecoration: "none",color:"white" }}>
               Sign up
           </Link>
           </button>
