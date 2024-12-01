@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mero-sell/static/css/main.33f3c61d.css",
+    "main.js": "/mero-sell/static/js/main.23662ffa.js",
+    "index.html": "/mero-sell/index.html",
+    "main.33f3c61d.css.map": "/mero-sell/static/css/main.33f3c61d.css.map",
+    "main.23662ffa.js.map": "/mero-sell/static/js/main.23662ffa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33f3c61d.css",
+    "static/js/main.23662ffa.js"
+  ]
+}
